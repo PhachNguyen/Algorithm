@@ -8,7 +8,7 @@ public class MAGPERM {
         int K = sc.nextInt();
 
         if (K == 0) {
-            // Trường hợp đặc biệt: B = A
+            // TH: B = A
             for (int i = 1; i <= N; i++) {
                 System.out.print(i + " ");
             }
@@ -32,8 +32,6 @@ public class MAGPERM {
                 }
             }
         }
-
-        // In kết quả từ 1 đến N
         for (int i = 1; i <= N; i++) {
             System.out.print(B[i] + " ");
         }
